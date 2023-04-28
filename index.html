@@ -7,7 +7,9 @@
     <title>Frontend with Bootstrap 5</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -55,11 +57,75 @@
     <!-- NewsLetter Starts Here -->
     <section class="bg-primary text-light p-5">
         <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center"></div>
-            <h3 class="mb-3 mb-md-0">Sign Up for our NewsLetter</h3>
+            <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mb-md-0">Sign Up for our NewsLetter</h3>
+                    <div class="input-group news-input">
+                        <input type="text" class="form-control" placeholder="Enter your Email">
+                        <button class="btn btn-warning btn-lg" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+            </div>
         </div>
     </section>
     <!-- NewsLetter Ends Here -->
+
+    <!-- Boxes Starts Here -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Virtual
+                            </h3>     
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur tempora eum! Ipsam, voluptates consequuntur.</p>   
+                            <a href="#" class="btn btn-warning">Subscribe</a>     
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Hybrid
+                            </h3>     
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur tempora eum! Ipsam, voluptates consequuntur.</p>   
+                            <a href="#" class="btn btn-warning">Subscribe</a>     
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-book"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Static 
+                            </h3>     
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur tempora eum! Ipsam, voluptates consequuntur.</p>   
+                            <a href="#" class="btn btn-warning">Subscribe</a>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
     <!-- script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
